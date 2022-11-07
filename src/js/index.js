@@ -1,17 +1,9 @@
-// import { Person } from "./person";
+// import {  } from "./obj";
 
-
-// const person = new Person;
-// console.log(person.name);
-// alert(person.name);
-//const el = document.getElementById("bottanTwo");
-//el.addEventListener("click", modifyText, false);
-
-const bottonTwo2 = document.querySelector('#bottanTwo');
-const bottanSection = document.querySelector('#bottanSection');
+const bottonTwo2 = document.querySelector("#bottanTwo");
+const bottanSection = document.querySelector("#bottanSection");
 console.log(bottonTwo2);
-bottonTwo2.addEventListener('click', function(){
-  console.log("TEST");
+bottonTwo2.addEventListener("click", function () {
 
   const valHTML = `
   <div class="block">     
@@ -20,24 +12,19 @@ bottonTwo2.addEventListener('click', function(){
   </div>
   `;
 
-  bottanSection.insertAdjacentHTML('afterend', valHTML);
+  bottanSection.insertAdjacentHTML("afterend", valHTML);
+});
 
-})
+const bottanOne = document.querySelector("#bottanOne");
+const bottanSectionOne = document.querySelector("#bottanSectionOne");
 
-const bottanOne = document.querySelector('#bottanOne');
-const bottanSectionOne = document.querySelector('#bottanSectionOne');
+bottanOne.addEventListener("click", function () {
 
-bottanOne.addEventListener('click', function(){
-    console.log("TEST");
-  
-    const valHTMLOne = `
+  const valHTMLOne = `
                    <div class="bottonDawn bottonDawnPositionTop">
                         <p>todo design</p>
                     </div>
     `;
-  
-    bottanSectionOne.insertAdjacentHTML('afterend', valHTMLOne);
-  
-  })
 
-
+  bottanSectionOne.insertAdjacentHTML("afterend", valHTMLOne);
+});
