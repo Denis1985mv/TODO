@@ -1,0 +1,346 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 450px;
+  height: 100vh;
+  margin: 0;
+  background: /*radial-gradient(
+    ellipse farthest-corner at center top,
+    #4a4a4a 0%,
+    #212121 100%
+  ); */  #282828;
+  color: #fff;
+
+}
+
+.row{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.positionTodo{
+  margin: 15px;
+  margin-top: 90px;
+}
+
+
+
+.todoList {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 428px;
+  height: 926px;
+  background: #171717;
+  /* border-radius: 10px; */
+  box-shadow: 0 7px 30px rgba(75, 70, 6, 0.3);
+  border-radius: 10px;
+}
+
+.headText{
+  width: 54px;
+  height: 29px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #78ACD5;
+}
+
+.headTextPosition{
+  display: flex;
+  margin: 20.5px 0px 0px 187px;
+}
+
+.settingPosition{
+  margin: 0px 0px 0px 135.83px;
+}
+
+
+.buttonsTopPosition{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 35.5px 0px;
+  gap: 10px;
+  width: 398px;
+  height: 55px;
+}
+
+.buttonsTop{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+.buttonsTopOne{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 15px 5px;
+
+}
+/* .textButtonsTopOne */
+
+.textButtonsTopOne{
+ text-decoration: none;
+ color: white;
+}
+
+.buttonsTopLeft{
+  margin-left: 10px;
+  
+}
+
+.topOne:hover{
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 15px;
+  color: #181818;
+}
+
+.buttonsTopOne:hover{
+  background: #78ACD5;
+  border-radius: 15px;
+  color: #181818;
+}
+
+.textPosition{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 45px 0px 0px 0px;
+}
+
+.textCentre{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #78ACD5;
+  
+}
+
+.buttonPosition{
+  margin: 25px 12px 0px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.button {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(53 99 233); /* фон кнопки */
+  padding: 8px 22px 8px 22px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+
+  border-radius: 5px;
+  width: 395px;
+  height: 50px;
+    /* margin: 25px 12px 25px 4px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Product Sans';
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #141414;
+  background: url(.png), radial-gradient(60.25% 122.24% at 103.28% -41.67%, #FDC2B0 0%, rgba(235, 81, 158, 0.25) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(80.74% 163.82% at -1.23% -17.59%, #5AF8FE 0%, rgba(235, 81, 158, 0.25) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(49.18% 100.93% at 77.87% 111.11%, rgba(137, 59, 254, 0.85) 0%, rgba(128, 187, 219, 0.2125) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #4EDFFC;
+}
+
+.textTwoPosition{
+  margin: 30px 12px 25px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textTwoCentre{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+
+.content {
+  padding: 10px 20px;
+}
+
+.content form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0 10px 0 5px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.content form > * {
+  background: transparent;
+  border: none;
+  height: 35px;
+}
+
+.content input[type="text"] {
+  padding: 0 5px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #c7c7c7;
+  outline: none;
+}
+
+.content input-buttons a {
+  text-decoration: none;
+}
+
+.content input-buttons i {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #eaeaea;
+}
+
+.content ul .todos {
+  margin-left: 0;
+  padding: 0;
+  letter-spacing: none;
+  height: 220px;
+  overflow: auto;
+}
+
+.align {
+  padding: 0;
+}
+
+.content li {
+  user-select: none;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content li i {
+  color: #c3c3c3;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.content input[type="checkbox"] {
+  display: none;
+}
+
+.content input[type="checkbox"] + label {
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 5px 5px 5px 40px;
+}
+
+.content input[type="checkbox"] + label:hover {
+  color: #bebebe;
+  background-color: #3e3e3e;
+}
+
+.content input[type="checkbox"] + label span.check {
+  left: 4px;
+  top: 50%;
+  position: absolute;
+  transform: translatey(-50%);
+  width: 18px;
+  height: 18px;
+  display: block;
+  background: #171717;
+  border-radius: 3px;
+  border: 1px solid #ffb510;
+  box-shadow: -2px -2px 2px rgba(67, 67, 67, 0.5),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.5),
+    inset -2px -2px 2px rgba(67, 67, 67, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.content input[type="checkbox"]:checked + label {
+  color: #e8e8e8;
+  text-decoration: line-through;
+}
+
+.content input[type="checkbox"]:checked + label span.check {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.content input[type="checkbox"] + label span.check::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("https://www.freepnglogos.com/uploads/tick-png/check-mark-tick-vector-graphic-21.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  transform: scale(0);
+  transition: transform 300ms cubic-bezier(0.3, 0, 0, 1.5);
+}
+
+.content input[type="checkbox"]:checked + label span.check::after {
+  transform: scale(1);
+}
+
+.content input[type="checkbox"] + label span.check::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #d9d9d9;
+  opacity: 0.8;
+  transform: scale(0);
+}
+
+.content input[type="checkbox"]:checked + label span.check::before {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: opacity 300ms cubic-bezier(0.2, 0, 0, 1),
+    transform 400ms cubic-bezier(0.3, 0, 0, 1.4);
+}
+
+.plus-icon {
+    color:  #ffb510;
+}
