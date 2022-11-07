@@ -371,17 +371,30 @@ justify-content: center;
   color: #78ACD5;
 }
 
+.squarePosition{
+ margin: 0px 0px 0px 32px;
+}
+
 .headTextPositionTwo{
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 20.5px 0px 0px 0px;
+}
 
+.headTextTwo{
+margin: 0px 0px 0px 79.01px;
 }
 
 
 .buttonPositionDownRight {
-  margin: 619px 0px 0px 0px;
+  margin: 596px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.blockPositionTwo{
+  margin: 22px 12px 25px 4px;
   display: flex;
   align-items: center;
   justify-content: center;
