@@ -193,6 +193,141 @@ body {
   text-transform: uppercase;
 }
 
+.blockPosition{
+  /* margin: 22px 12px 25px 4px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block{
+  width: 398px;
+  height: 50px;
+  display: flex;
+  background-color: #181818;
+  padding: 13px 0px 0px 15px;
+  border-radius: 10px;
+}
+
+.blockTop{
+margin: 10px 0px 0px 0px;
+}
+
+.blockBorderColorOne{
+  border-left:2px solid #FF2460; 
+  padding-left:10px;
+  /* width: 2px; */
+  height: 30px;
+  display: flex;
+}
+
+.blockBorderColorTwo{
+  border-left:2px solid #FCF302; 
+  padding-left:10px;
+  /* width: 2px; */
+  height: 30px;
+  display: flex;
+}
+
+.blockBorderColorThree{
+  border-left:2px solid #78ACD5; 
+  padding-left:10px;
+  /* width: 2px; */
+  height: 30px;
+  display: flex;
+}
+
+
+
+
+.blockText{
+  padding: 6px 0px 0px 0px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  width: 275px;
+}
+
+.zipper{
+  width: 17px;
+  height: 17px;
+  opacity: 0.2;
+}
+
+.leftZipper{
+  margin: 3px 0px 0px 0px;
+
+}
+
+.mainZipper{
+  margin: 3px 0px 0px 13.35px;
+}
+
+.bottonDawnPosition{
+margin: 30px 12px 25px 15px;
+align-items: center;
+justify-content: center;
+
+}
+
+.bottonDawnPositionTop{
+ margin: 10px 0px 0px 0px;
+}
+
+.bottonDawn{
+    width: 398px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;;
+    /* padding: 13px 0px 0px 15px; */
+    border-radius: 10px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buttonPositionDown{
+ margin:  145px 0px 0px 0px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.buttonDawnMain {
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: rgb(53 99 233);
+  padding: 8px 22px 8px 22px;
+  outline: none;
+  border-radius: 5px;
+  width: 122px;
+  height: 50px;
+  /* margin: 25px 12px 25px 4px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #141414;
+  background: url(.png), radial-gradient(60.25% 122.24% at 103.28% -41.67%, #FDC2B0 0%, rgba(235, 81, 158, 0.25) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(80.74% 163.82% at -1.23% -17.59%, #5AF8FE 0%, rgba(235, 81, 158, 0.25) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(49.18% 100.93% at 77.87% 111.11%, rgba(137, 59, 254, 0.85) 0%, rgba(128, 187, 219, 0.2125) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #4EDFFC;
+}
+
+
+
 
 .content {
   padding: 10px 20px;
