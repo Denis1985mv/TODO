@@ -303,7 +303,8 @@ justify-content: center;
 }
 
 .buttonPositionDown{
- margin:  145px 0px 0px 0px;
+  margin: 880px 0px 0px -290px;
+  position: absolute;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -386,7 +387,7 @@ margin: 0px 0px 0px 79.01px;
 
 
 .buttonPositionDownRight {
-  margin: 596px 0px 0px 0px;
+  margin: 875px 0px 0px -292px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -400,3 +401,21 @@ margin: 0px 0px 0px 79.01px;
   justify-content: center;
 }
 
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
