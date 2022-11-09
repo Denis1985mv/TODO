@@ -1,3 +1,3 @@
-export const Person = function (name) {
-    this.name = "name5";
+export const Value = function (name) {
+    
 }

@@ -29,6 +29,11 @@ body {
   margin-top: 90px;
 }
 
+.positionTodoTwo{
+  margin: 15px;
+  margin-top: 0px;
+}
+
 
 
 .todoList {
@@ -38,6 +43,19 @@ body {
   /* transform: translate(-50%, -50%); */
   width: 428px;
   height: 926px;
+  background: #171717;
+  /* border-radius: 10px; */
+  box-shadow: 0 7px 30px rgba(75, 70, 6, 0.3);
+  border-radius: 10px;
+}
+
+.todoListTwo {
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 428px;
+  height: 650px;
   background: #171717;
   /* border-radius: 10px; */
   box-shadow: 0 7px 30px rgba(75, 70, 6, 0.3);
@@ -202,7 +220,7 @@ body {
 
 .block{
   width: 398px;
-  height: 50px;
+  /* height: 50px; */
   display: flex;
   background-color: #181818;
   padding: 13px 0px 0px 15px;
@@ -214,7 +232,7 @@ margin: 10px 0px 0px 0px;
 }
 
 .blockBorderColorOne{
-  border-left:2px solid #FF2460; 
+   border-left:2px solid #FF2460;  
   padding-left:10px;
   /* width: 2px; */
   height: 30px;
@@ -222,7 +240,7 @@ margin: 10px 0px 0px 0px;
 }
 
 .blockBorderColorTwo{
-  border-left:2px solid #FCF302; 
+   border-left:2px solid #FCF302;  
   padding-left:10px;
   /* width: 2px; */
   height: 30px;
@@ -230,7 +248,7 @@ margin: 10px 0px 0px 0px;
 }
 
 .blockBorderColorThree{
-  border-left:2px solid #78ACD5; 
+   border-left:2px solid #78ACD5;  
   padding-left:10px;
   /* width: 2px; */
   height: 30px;
@@ -254,6 +272,13 @@ margin: 10px 0px 0px 0px;
   width: 17px;
   height: 17px;
   opacity: 0.2;
+}
+
+.zipperActiv{
+  width: 17px;
+  height: 17px;
+  opacity: 1;
+
 }
 
 .ellipse{
@@ -303,11 +328,15 @@ justify-content: center;
 }
 
 .buttonPositionDown{
-  margin: 880px 0px 0px -290px;
-  position: absolute;
+  margin: 140px 0px 0px 0px;
+  /* position: absolute; */
  display: flex;
  align-items: center;
  justify-content: center;
+}
+
+.buttonPositionDown:hover{
+  opacity: 0.8;
 }
 
 
@@ -376,6 +405,10 @@ justify-content: center;
  margin: 0px 0px 0px 32px;
 }
 
+.squarePosition:hover{
+ opacity: 0.5;
+}
+
 .headTextPositionTwo{
   display: flex;
   margin: 20.5px 0px 0px 0px;
@@ -387,10 +420,14 @@ margin: 0px 0px 0px 79.01px;
 
 
 .buttonPositionDownRight {
-  margin: 875px 0px 0px -292px;
+  margin: 520px 0px 0px -292px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.buttonPositionDownRight:hover{
+  opacity: 0.8;
 }
 
 
