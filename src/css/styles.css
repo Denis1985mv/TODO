@@ -31,7 +31,7 @@ body {
 
 .positionTodoTwo{
   margin: 15px;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 
@@ -195,6 +195,10 @@ body {
   background: url(.png), radial-gradient(60.25% 122.24% at 103.28% -41.67%, #FDC2B0 0%, rgba(235, 81, 158, 0.25) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(80.74% 163.82% at -1.23% -17.59%, #5AF8FE 0%, rgba(235, 81, 158, 0.25) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(49.18% 100.93% at 77.87% 111.11%, rgba(137, 59, 254, 0.85) 0%, rgba(128, 187, 219, 0.2125) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #4EDFFC;
 }
 
+.button:hover{
+opacity: 0.8;
+}
+
 .textTwoPosition{
   margin: 30px 12px 25px 4px;
   display: flex;
@@ -223,7 +227,7 @@ body {
   /* height: 50px; */
   display: flex;
   background-color: #181818;
-  padding: 13px 0px 0px 15px;
+  padding: 5px 0px 5px 15px;
   border-radius: 10px;
 }
 
@@ -328,7 +332,7 @@ justify-content: center;
 }
 
 .buttonPositionDown{
-  margin: 140px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
   /* position: absolute; */
  display: flex;
  align-items: center;
@@ -455,4 +459,10 @@ margin: 0px 0px 0px 79.01px;
 
 .addBtn:hover {
   background-color: #bbb;
+}
+
+.table-scroll {
+  height: 410px;
+  overflow-y: auto;
+
 }

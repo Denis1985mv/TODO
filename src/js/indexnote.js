@@ -15,6 +15,17 @@ bottonTwo.addEventListener("click", function () {
 
   let text = document.querySelector("#valueInput").value;
 
+  let timeCosts = 0;
+  if(document.getElementById('timeOne').checked){
+    timeCosts = 1;
+  }
+  if(document.getElementById('timeTwo').checked){
+    timeCosts = 2;
+  }
+  if(document.getElementById('timeThree').checked){
+    timeCosts = 3;
+  }
+
   let energyCosts = 0;
   if(document.getElementById('energyOne').checked){
     energyCosts = 1;
@@ -40,6 +51,7 @@ bottonTwo.addEventListener("click", function () {
   valueGo.text = text;
   valueGo.priority = color;
   valueGo.energyCosts = energyCosts;
+  valueGo.timeCosts = timeCosts;
 
   localStorage = 1;
   console.log(valueGo.energyCosts,"здесь");
@@ -50,7 +62,7 @@ bottonTwo.addEventListener("click", function () {
 
   const taskHTML = `
                     <div class="bottonDawn">
-                    <p>Данные сахранены</p>
+                    <p>Данные сахранены</p> <br>
                     <p>Сейчас Вас перенаправит на главную страницу!</p>
                     </div>
                     `;

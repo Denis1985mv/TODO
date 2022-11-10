@@ -20,11 +20,13 @@ for (let i = 0, length = localStorage.length; i < length; i++) {
   console.log(obj.text,  "Имя");
   console.log(obj.priority,  "Число");
   console.log(obj.energyCosts,  "energy");
+  console.log(obj.timeCosts,  "energy");
   console.log(typeof(obj),"здесь");
   let name = obj.text;
   let priority = obj.priority;
   let energy = obj.energyCosts;
-  document.write(`Название задачи ${name}, приоритет ${priority} важность ${energy} `, "<br>");
+  let timeCosts = obj.timeCosts;
+  document.write(`Название задачи ${name}, приоритет ${priority}, важность ${energy}, период ${timeCosts} `, "<br>");
 
   let nameColor;
   if(priority === 1){
@@ -71,8 +73,9 @@ for (let i = 0, length = localStorage.length; i < length; i++) {
   textMainGo.insertAdjacentHTML("afterend", mainHTML);
 }
 
+const bottonClear = document.querySelector("#bottanClear");
 
-
-
-
+bottonClear.addEventListener("click", function () {
+  localStorage.clear()
+});
 
