@@ -506,7 +506,19 @@ body {
 }
 
 .textSave{
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  }
+display: flex; 
+align-items: center;
+justify-content: center;
+}
+
+.time {
+  width: 88px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.textForm{
+  width: 200px;
+  border-radius: 5px;
+}
+
