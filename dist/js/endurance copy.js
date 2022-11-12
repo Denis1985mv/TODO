@@ -14,18 +14,13 @@ bottonTwo.addEventListener("click", function () {
 
   let text = document.querySelector("#valueInput").value;
 
-  let e = document.getElementById("timeValue");
-  let value = Number(e.value);
- 
-  console.log(value,"dfgdf");
-
   let timeCosts = 0;
-  if(value === 1){
+  if(document.getElementById('timeOne').checked){
     timeCosts = 1;
-  }if (value === 2) {
+  }
+  if(document.getElementById('timeTwo').checked){
     timeCosts = 2;
-  } 
-
+  }
 
   let energyCosts = 0;
   if(document.getElementById('energyOne').checked){
