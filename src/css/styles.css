@@ -504,3 +504,9 @@ body {
   background-color: #171717;
   color: #fff;
 }
+
+.textSave{
+display: flex; 
+align-items: center;
+justify-content: center;
+}

@@ -21,9 +21,6 @@ bottonTwo.addEventListener("click", function () {
   if(document.getElementById('timeTwo').checked){
     timeCosts = 2;
   }
-  // if(document.getElementById('timeThree').checked){
-  //   timeCosts = 3;
-  // }
 
   let energyCosts = 0;
   if(document.getElementById('energyOne').checked){
@@ -60,8 +57,8 @@ bottonTwo.addEventListener("click", function () {
   const taskPriority = valueGo.priority;
 
   const taskHTML = `
-                    <div class="">
-                    <p>Данные сахранены</p> <br>
+                    <div class="textSave">
+                    <p>Данные сахранены - </p> <br>
                     <p>Сейчас Вас перенаправит на главную страницу!</p>
                     </div>
                     `;

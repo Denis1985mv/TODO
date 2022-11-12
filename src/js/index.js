@@ -7,30 +7,6 @@ intoInfinity();
 clearButton();
 buttonCenter();
 
-
-// function infinityIsNotaChapel () { 
-
-//     let timeCheckOne = undefined;
-//     // const timeCheckTwo = 2;
-
-
-//     // const timeCheckThree = 3;
-
-//     let i = 0;
-//         while (i < 100) {
-//         let elem = document.querySelector("#dell");
-//         if(elem != null){
-//         elem.remove();
-//         }
-//       ++i
-//       }
-
-//       singularity(timeCheckOne);
-//  }
-
-
-// infinityIsNotaChapel();
-
 function timeOne () { 
   const timeCheckOne = 1;
 
