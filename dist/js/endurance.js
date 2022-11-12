@@ -1,9 +1,8 @@
-// import {  } from "./obj";
 
 const valueGo = { text: '', priority: 0, energyCosts: 0 }
 
 const bottonTwo = document.querySelector("#bottanTwo");
-const textvelueGo = document.querySelector("#bottanSection");
+const textvelueGo = document.querySelector("#saveResult");
 
 bottonTwo.addEventListener("click", function () {
 
@@ -22,9 +21,9 @@ bottonTwo.addEventListener("click", function () {
   if(document.getElementById('timeTwo').checked){
     timeCosts = 2;
   }
-  if(document.getElementById('timeThree').checked){
-    timeCosts = 3;
-  }
+  // if(document.getElementById('timeThree').checked){
+  //   timeCosts = 3;
+  // }
 
   let energyCosts = 0;
   if(document.getElementById('energyOne').checked){
@@ -61,7 +60,7 @@ bottonTwo.addEventListener("click", function () {
   const taskPriority = valueGo.priority;
 
   const taskHTML = `
-                    <div class="bottonDawn">
+                    <div class="">
                     <p>Данные сахранены</p> <br>
                     <p>Сейчас Вас перенаправит на главную страницу!</p>
                     </div>
