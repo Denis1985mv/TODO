@@ -1,0 +1,24 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000O\u0000D\u0000O\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denis1985mv/TODO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denis1985mv/TODO/issues"
+  },
+  "homepage": "https://github.com/Denis1985mv/TODO#readme",
+  "dependencies": {
+    "vite": "^3.2.2"
+  }
+}
