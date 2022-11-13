@@ -7,30 +7,6 @@ intoInfinity();
 clearButton();
 buttonCenter();
 
-
-// function infinityIsNotaChapel () { 
-
-//     let timeCheckOne = undefined;
-//     // const timeCheckTwo = 2;
-
-
-//     // const timeCheckThree = 3;
-
-//     let i = 0;
-//         while (i < 100) {
-//         let elem = document.querySelector("#dell");
-//         if(elem != null){
-//         elem.remove();
-//         }
-//       ++i
-//       }
-
-//       singularity(timeCheckOne);
-//  }
-
-
-// infinityIsNotaChapel();
-
 function timeOne () { 
   const timeCheckOne = 1;
 
@@ -83,7 +59,7 @@ function timeTwo () {
 }
 
 function timeThree () { 
-  const timeCheckOne = undefined;
+  const timeCheckOne = 3;
 
   let btn2 = document.getElementById("buttonTimeOne");
   btn2.classList.add("activeDell");
@@ -107,11 +83,11 @@ function timeThree () {
   singularity(timeCheckOne);
 }
 
- timeOne();
+timeOne();
 
 
 buttonTimeOne.addEventListener("click", timeOne);
 buttonTimeTwo.addEventListener("click", timeTwo);
 buttonTimeThree.addEventListener("click", timeThree);
 
-singularity(timeCheckOne, timeCheckTwo, timeCheckThree);
+singularity();

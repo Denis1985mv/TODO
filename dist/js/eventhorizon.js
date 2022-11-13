@@ -1,6 +1,15 @@
 
 export function singularity (timeCheckOne, timeCheckTwo, timeCheckThree){
 
+  let valueDate = new Date();
+  let day = valueDate.getDate();
+
+  let valueDateTomoroy = day; 
+  valueDateTomoroy = valueDateTomoroy + 1;
+  console.log(valueDateTomoroy, "завтра");
+
+  console.log(day, "дата");
+
     for (let i = 0, length = localStorage.length; i < length; i++) {
     
       const key = localStorage.key(i);
@@ -48,12 +57,17 @@ export function singularity (timeCheckOne, timeCheckTwo, timeCheckThree){
         zipperTwo = "zipperActiv";
         zipperThree = "zipperActiv";
       }
-      
-      timeCheckTwo= 2;
-      timeCheckThree = 3;
-    
-          if(timeCosts === timeCheckOne){
-          
+
+
+     // timeCheckOne= 1;
+     // timeCheckTwo = 2;
+     // timeCheckThree = 3;
+
+     
+     
+      if(timeCheckOne === 1){
+
+          if(timeCosts === day){
           const mainHTML = `
                           <div id="dell" class="block blockTop"> 
                           <div class="${nameColor}">
@@ -71,7 +85,9 @@ export function singularity (timeCheckOne, timeCheckTwo, timeCheckThree){
           textMainGo.insertAdjacentHTML("afterend", mainHTML);
     
         }
-        else if (timeCheckOne === undefined) {
+      } else if (timeCheckOne === 2) {
+
+          if(timeCosts === valueDateTomoroy){
           const mainHTML = `
           <div id="dell" class="block blockTop"> 
           <div class="${nameColor}">
@@ -88,8 +104,25 @@ export function singularity (timeCheckOne, timeCheckTwo, timeCheckThree){
           const textMainGo = document.querySelector("#textMainGo");
           textMainGo.insertAdjacentHTML("afterend", mainHTML);
 
-        }
+          }
+      } else if (timeCheckOne === 3) {
 
-      }
+        const mainHTML = `
+        <div id="dell" class="block blockTop"> 
+        <div class="${nameColor}">
+            <p class="blockText">${name}</p>
+            <img class="${zipper} leftZipper" src=${flashUrl} alt="flash.svg.pic">
+            <img class="${zipperTwo} mainZipper" src="${flashUrl}" alt="flash.svg.pic">
+            <img class="${zipperThree} mainZipper" src="${flashUrl}" alt="flash.svg.pic">
+        </div>
+        </div>
+        `;
+
+        console.log(mainHTML);
+
+        const textMainGo = document.querySelector("#textMainGo");
+        textMainGo.insertAdjacentHTML("afterend", mainHTML);
     }
+  }
+}
     

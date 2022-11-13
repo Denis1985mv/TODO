@@ -1,6 +1,17 @@
 
 const valueGo = { text: '', priority: 0, energyCosts: 0 }
 
+let valueDate = new Date();
+let dayVal = valueDate.getDate();
+let month = valueDate.getMonth();
+let year = valueDate.getFullYear();
+let resultMonth = month + 1;
+
+
+
+document.write(`День: ${dayVal} месяц: ${resultMonth}, год: ${year}`);
+
+
 const bottonTwo = document.querySelector("#bottanTwo");
 const textvelueGo = document.querySelector("#saveResult");
 
@@ -15,17 +26,7 @@ bottonTwo.addEventListener("click", function () {
   let text = document.querySelector("#valueInput").value;
 
   let e = document.getElementById("timeValue");
-  let value = Number(e.value);
- 
-  console.log(value,"dfgdf");
-
-  let timeCosts = 0;
-  if(value === 1){
-    timeCosts = 1;
-  }if (value === 2) {
-    timeCosts = 2;
-  } 
-
+  let timeCosts = Number(e.value);
 
   let energyCosts = 0;
   if(document.getElementById('energyOne').checked){
